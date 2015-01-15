@@ -18,7 +18,7 @@
 		'deploy'  => array(
             function($task){
                 $source = base_path().'/.env.php';
-                $destination = '/home/cmcnamara87/public_html/api.seenutrition.com/shared/.env.php';
+                $destination = '/home/cmcnamara87/public_html/moviesowl.com/shared/.env.php';
                 $task->command->info('Uploading ENV: ' .$source . ' to: ' . $destination);
                 $task->upload($source, $destination);
                 $task->command->info('ENV Upload Finished.');

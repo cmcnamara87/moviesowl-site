@@ -17,6 +17,6 @@
     'composer' => '/home/cmcnamara87/bin/composer.phar',
 
     // Path to the Artisan CLI
-    'artisan'  => '/home/cmcnamara87/www/api.seenutrition.com/current',
+    'artisan'  => '/home/cmcnamara87/www/moviesowl.com/current',
 
 );

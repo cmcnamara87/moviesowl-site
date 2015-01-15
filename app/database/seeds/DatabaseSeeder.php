@@ -10,11 +10,6 @@ class DatabaseSeeder extends Seeder {
 	public function run()
 	{
 		Eloquent::unguard();
-
-//        Brand::truncate();
-//        Product::truncate();
-		 $this->call('BrandsTableSeeder');
-        $this->call('ProductsTableSeeder');
 	}
 
 }
